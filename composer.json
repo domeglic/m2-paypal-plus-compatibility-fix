@@ -1,0 +1,28 @@
+{
+  "name": "code4business/paypal-plus-compatibility-fix",
+  "description": "Fixes compatibility issues caused by paypal plus module",
+  "require": {
+    "php": "7.0.*",
+    "iways/module-pay-pal-plus": "^1.1.7"
+  },
+  "require-dev": {
+  },
+  "type": "magento2-module",
+  "license": [
+  ],
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Dominik Meglič",
+      "email": "meglic@code4business.de"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "C4B\\PaypalPlusCompatibilityFix\\": ""
+    }
+  }
+}

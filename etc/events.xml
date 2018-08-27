@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="controller_action_predispatch_paypalplus_order_create">
+        <observer name="PaypalPlusCompatibilityFix" instance="C4B\PaypalPlusCompatibilityFix\Observer\DisableFpc" shared="false"/>
+    </event>
+</config>
